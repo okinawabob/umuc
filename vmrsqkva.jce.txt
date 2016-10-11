@@ -1,0 +1,14 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch gh-pages
+# Your branch is behind 'origin/gh-pages' by 1 commit, and can be fast-forwarded.
+#   (use "git pull" to update your local branch)
+#
+# Changes to be committed:
+#	modified:   Thumbs.db
+#
+# Untracked files:
+#	math103/
+#
+

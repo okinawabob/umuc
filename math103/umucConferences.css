@@ -1,0 +1,91 @@
+/* External Cascade Style Sheet used for UMUC Courses */
+/* Author: Robert M. Laurie                           */
+/*----------------------------------------------------*/
+
+
+#divMain {
+	width: 80%; 
+	font-size: medium;
+}
+
+#divMain a {
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}
+#divMain a:link {text-decoration:none; color:#3366CC; }
+#divMain a:visited {text-decoration:none; color:#996633;}
+#divMain a:hover {text-decoration:underline; color:#CC3333;}
+#divMain a:active {text-decoration:underline; color:#EE0000;}
+
+
+img{
+	display: inline;
+	float: right;
+	margin-left: 8px;	
+	margin-bottom: 8px;
+}
+
+
+hr { 
+	margin-top: 0;
+	margin-bottom: 8px;
+}
+
+p {	
+	font-family: "Times New Roman", Times, serif;
+	font-size:  medium;
+	margin: 0.5em;
+	color: #000000;
+}
+
+p.indent {
+	text-indent: 24px;
+}
+
+.signature {
+	font-family: 'Comic Sans MS', Georgia, 'Times New Roman', serif; 
+	font-size: 24px; 
+	color: #000099;
+	font-style: italic;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	margin: 0.5em 0 0.3em 0; 
+	color: #003366;  
+	text-align: center; 
+}
+h2 {	 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	margin: 0.4em 0 0.2em 0; 
+	color: #003366;  
+	text-align: left;
+}
+
+h3 { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	margin: 0.4em 0 0.1em 0; 
+	color: #003366;  
+	text-align: left; 
+}
+
+h4 { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	margin: 0.3em 0 0.1em 0; 
+	color: #003366;  
+	text-align: left;
+	font-style: italics;
+} 
+
+ol, ul {
+	margin-top: 6px;
+}
+
+strong{
+	color: #003366; 
+	font: 800 110% Arial, Helvetica, sans-serif;
+}
