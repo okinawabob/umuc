@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Page Title</title>
+    
+         <script type="text/javascript">
+        document.write("<h2>Welcome to the Dynasty Casino Chip Counter\n ダイナスティー・カジノ・チップカウンターへようこそ</h2>");
+        document.write("<h3>This program written by Earie</h3><hr>");
+        window.alert("This program will calculate the total values of chips.");
+        var bChip = parseFloat(window.prompt("How many black chips?","0"));
+        var tbChip = 5 * bChip ;
+        document.write("<h2>" + bChip + " Black Chips = $" + tbChip + "</h2>");   
+    
+    
+        var blChip = parseFloat(window.prompt("How many blue chips?","0"));
+        var tblChip = 20 * blChip ;
+        document.write("<h2>" + blChip + " Blue Chips = $" + tblChip + "</h2>");   
+    
+        var rChip = parseFloat(window.prompt("How many red chips?","0"));
+        var trChip = 50 * rChip ;
+        document.write("<h2>" + rChip + " Red Chips = $" + trChip + "</h2>");   
+    
+        var gChip = parseFloat(window.prompt("How many green chips?","0"));
+        var tgChip = 100 * gChip ;
+        document.write("<h2>" + gChip + " green Chips = $" + tgChip + "</h2>");
+    
+         document.write("<h2> $" + (tbChip + tblChip + trChip + tgChip) + "</h2>");
+    </script>
+
+</head>
+
+<body>
+
+
+
+</body>
+</html>

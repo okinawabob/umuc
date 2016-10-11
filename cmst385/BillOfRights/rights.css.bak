@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:700");
+
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes");
+
+body {  
+  color: #333300;  
+  background-color: #999966;  
+  background-image: url("bgFireworksFlag.jpg");  
+  background-repeat: repeat;  
+  background-attachment: scroll;  
+  background-position: 0% 0%;  
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;  
+  font-size: 18px;  
+  text-align: justify;  
+  margin-top: 0px;  
+  margin-right: 0px;  
+  margin-bottom: 0px;  
+  margin-left: 0px;
+}
+
+div#main {  
+  width: 800px;  
+  margin-top: 0px;  
+  margin-right: auto;  
+  margin-bottom: 20px;  
+  margin-left: auto;  
+  background-color: transparent;  
+  background-image: url("old-paper-veined-light.jpg");  
+  background-repeat: repeat;  
+  background-attachment: scroll;  
+  background-position: 0% 0%;  
+  padding-top: 20px;  
+  padding-right: 0px;  
+  padding-bottom: 20px;  
+  padding-left: 0px;
+}
+
+nav {  
+  position: fixed;  
+  width: 60px;  
+  margin-top: 0px;  
+  margin-right: 0px;  
+  margin-bottom: 0px;  
+  margin-left: 20px;  -webkit-border-radius: 30px 30px 30px 30px;
+  border-radius: 30px 30px 30px 30px;  
+  border-top-width: 5px;  
+  border-top-style: outset;  
+  border-top-color: #999933;  
+  border-right-width: 5px;  
+  border-right-style: outset;  
+  border-right-color: #999933;  
+  border-bottom-width: 5px;  
+  border-bottom-style: outset;  
+  border-bottom-color: #999933;  
+  border-left-width: 5px;  
+  border-left-style: outset;  
+  border-left-color: #999933;  
+  background-color: #cccc99;  
+  background-image: url("wpLines1.gif");  
+  background-repeat: repeat;  
+  background-attachment: scroll;  
+  background-position: 0% 0%;  
+  font-size: 18px;  
+  font-family: Verdana, Geneva, sans-serif;  
+  text-align: center;
+}
+
+nav hr {  
+  margin-top: 4px;  
+  margin-right: 0px;  
+  margin-bottom: 4px;  
+  margin-left: 0px;
+}
+
+nav a {  
+  display: block;  
+  margin-top: 4px;  
+  margin-right: 0px;  
+  margin-bottom: 4px;  
+  margin-left: 0px;  
+  text-decoration: none;  
+  font-weight: 700;
+}
+
+nav a:link {  
+  color: #3366ff;
+}
+
+nav a:visited {  
+  color: #996633;
+}
+
+nav a:hover {  
+  background-color: rgba(250, 250, 150, 0.5);  
+  color: #cc3333;
+}
+
+nav a:active {  
+  background-color: rgba(250, 250, 150, 0.75);  
+  color: #ee0000;
+}
+
+a#btHomeRO {  
+  display: inline-block;  
+  height: 50px;  
+  width: 50px;  
+  background-color: transparent;  
+  background-image: url("btHomeRed.gif");  
+  background-repeat: no-repeat;  
+  background-attachment: scroll;  
+  background-position: 0% 0%;
+}
+
+a#btHomeRO:hover {  
+  background-position: 0px -50px;
+}
+
+a#btHomeRO:active {  
+  background-position: 0px -100px;
+}
+
+a.btTop {  
+  font-style: normal;  
+  font-variant: normal;  
+  font-weight: bold;  
+  font-size: 32px;  
+  line-height: 38px;  
+  font-family: Verdana, Geneva, sans-serif;  
+  background-color: rgba(128, 0, 0, 0.8);  
+  display: inline-block;  
+  height: 40px;  
+  width: 40px;  
+  text-align: center;  
+  text-decoration: none;  -webkit-border-radius: 50% 50% 50% 50%;
+  border-radius: 50% 50% 50% 50%;  
+  border-top-width: 5px;  
+  border-top-style: outset;  
+  border-top-color: #999999;  
+  border-right-width: 5px;  
+  border-right-style: outset;  
+  border-right-color: #999999;  
+  border-bottom-width: 5px;  
+  border-bottom-style: outset;  
+  border-bottom-color: #999999;  
+  border-left-width: 5px;  
+  border-left-style: outset;  
+  border-left-color: #999999;
+}
+
+a.btTop:link {  
+  color: #eeee66;
+}
+
+a.btTop:visited {  
+  color: #ffeecc;
+}
+
+a.btTop:hover {  
+  background-color: #dd6666;  
+  color: #ffff33;
+}
+
+a.btTop:active {  
+  background-color: #ff9933;  
+  color: #ffeebb;
+}
+
+div#main header {  
+  width: 600px;  
+  margin-top: 0px;  
+  margin-right: 0px;  
+  margin-bottom: 0px;  
+  margin-left: 120px;  
+  padding-top: 0px;  
+  padding-right: 0px;  
+  padding-bottom: 0px;  
+  padding-left: 0px;
+}
+
+section {  
+  width: 600px;  
+  margin-top: 0px;  
+  margin-right: 0px;  
+  margin-bottom: 0px;  
+  margin-left: 120px;
+}
+
+footer {  
+  width: 600px;  
+  font-size: small;  
+  text-align: right;  
+  vertical-align: bottom;  
+  margin-top: 0px;  
+  margin-right: 0px;  
+  margin-bottom: 20px;  
+  margin-left: 120px;
+}
+
+footer a.btTop {  
+  float: left;
+}
+
+abbr {  
+  border-bottom-width: medium;  
+  border-bottom-style: none;  
+  border-bottom-color: initial;
+  border-bottom-color: -moz-initial;  
+  text-decoration: underline;
+}
+
+h1, h2 {  
+  font-family: 'Dancing Script', cursive;  
+  text-align: center;  
+  font-weight: 900;
+}
+
+h1 {  
+  font-size: 36px;
+}
+
+h2 {  
+  font-size: 30px;
+}
+
+#logo {  
+  float: right;  
+  border-top-color: #cc0000;  
+  border-right-color: #cc0000;  
+  border-bottom-color: #cc0000;  
+  border-left-color: #cc0000;  
+  border-top-style: double;  
+  border-right-style: double;  
+  border-bottom-style: double;  
+  border-left-style: double;
+}
+
+#btHome {  
+  float: left;
+}
+
+ol {  
+  list-style-type: none;  
+  padding-top: 0px;  
+  padding-right: 0px;  
+  padding-bottom: 0px;  
+  padding-left: 0px;
+}
+
+ol li:before {  
+  content: "Amendment " counter(section, upper-roman) ": ";  
+  font-weight: bold;  
+  color: blue;
+}
+
+ol li {  
+  counter-increment: section;  
+  padding-top: 0px;  
+  padding-right: 0px;  
+  padding-bottom: 0px;  
+  padding-left: 0px;  
+  margin-top: 20px;
+}
+
+.signature {  
+  font-family: 'Great Vibes', cursive;  
+  font-weight: 900;  
+  font-size: 42px;  
+  margin-top: 0px;  
+  margin-right: 0px;  
+  margin-bottom: 0px;  
+  margin-left: 0px;
+}
+

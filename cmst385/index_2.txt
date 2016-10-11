@@ -1,0 +1,91 @@
+<!---
+template: umuc_courses
+crsTitle: CMST385 • Web Design and Technology
+js: ../AntiSpam.js
+--->
+    
+<hr id="Week0">
+# Welcome to CMST 385
+![Me](../MyMug150_2014.jpg)This is a classic Face-to-Face class and we meet entirely in person. There will no online discussions and if you have a question you can email me at 
+<script>alert('hello'); </script>.
+
+However, I will post handouts and hyperlinks to videos for the class on this web page which is accessible through the URL <http://rlaurie.pancakeapps.com/cmst385/>
+
+Please bookmark (favorites) this URL in your browser so that you can easily return to it as the course progresses.
+
+### So lets get started...
+
+This is a fast paced course in an 8 week session and you need to keep up with the pacing of the course or you will become quickly lost and very frustrated. Do not take this class unless you can allocate 16 hours per week to this course:
+
+ * Lecture = 6 hours per week
+ * Reading study, video watching, and homework = 10 hours per week
+ 
+ If you are computer challenged or a compulsive ADHD type of person when working with computers you likely want to spend more then 20 hours per week on the course.
+ 
+The course has as a prerequisite of either IFSM201 or CMIS102 to insure students come into the class with intermediate computer skills.  This course has a final exam so it is important that you learn HTML and CSS coding so you do well on the assignments and exams.
+
+UMUC courses no longer utilizes textbooks for their courses, but free online resources are provided for the course and available at [LEO](http://campus.umuc.edu/).  However, I feel you would get more out of the course if you consider purchasing the textbook _Learn to Code HTML & CSS_ that is available through [Amazon](http://www.amazon.com/gp/product/0321940520) as either [paperback](http://www.amazon.com/Learn-Code-HTML-CSS-Websites/dp/0321940520/ref=tmm_pap_swatch_0?_encoding=UTF8) or [ebook](http://www.amazon.com/Learn-Code-HTML-CSS-Websites-ebook/dp/B00JVQX7V8/ref=mt_kindle?_encoding=UTF8). We will be using this recommended textbook author's web site as the foundation for the course and most of the information in the textbook is on this web site, but a book is often more convenient.
+
+Print all Week 1 materials described below which are posted as PDF files. I recommend using the freeware version of [PDFXChangeViewer](http://www.docu-track.com/home/prod_user/PDF-XChange_Tools/pdfx_viewer), which allows you to make notes and save them to any PDF file or you can use Adobe Acrobat Reader.
+
+I recommend that you get started with Week 1 content today, by clicking Week 1 in the navigation bar above or scrolling down.
+
+<p class="signature">Robert Laurie</p>
+
+
+<hr id="Week1">
+
+## Week 1: Introduction to the World Wide Web
+
+This week we will be covering Number Theory and the Real Number System which is covered in Math103 eBook Chapter 1 or Blitzer Chapter 5 Sections 1-6. I will support homework from either the Math103 eBook or Blitzer book so select your path for the term.
+
+  
+<hr id="Week2">
+
+## Week 2: Algebra: Linear Equations and Inequalities
+
+This week we will be covering the topics of Algebra of Linear Equations and Inequalities. This content is covered in eBook Chapters 2 and 3 or Blitzer Chapter 6 Sections 6.1 through 6.4.
+I will support homework from either Math103 eBook or Blitzer textbook so select your path. This is the last eChapter that is available for the Blitzer textbook in the course resources, so if you would like to continue with the Blitzer textbook you need to purchase it.
+
+  
+
+<hr id="Week3">
+
+## Week 3: Quadratic Equations, Graphing, and Functions
+
+This week we will begin with Test 1, which will cover content from Chapters 1, 2, and 3 in the eBook or Sections 5.1 through 5.6 and 6.1 through 6.4 in the Blitzer textbook. Test 1 is closed book, but you are permitted to bring in one half page of handwritten notes on one side of an 8.5 inches x 5.5 inches area. I suggest you simply take a standard letter size paper and fold it in half. You can add to these notes for test 2 and 3.  Please bring pencil, eraser, and calculator to Test 1. You may download and view this Sample Test 1 which I used in class last year and is available as a PDF file for download.
+ 
+<hr id="Week4">
+ 
+## Week 4: 2-Variable Equations and Graphing Functions
+
+This week we will finish cover the following topics:
+
+ + Linear Functions and their graphs: eBook Section 5.2 or Blitzer textbook Section 7.2
+ + Systems of Linear Equations in Two Variables: eBook Section 5.3 or Blitzer textbook Section 7.3
+ + Modeling Data: eBook Sections 5.4, 5.5, 5.6 or Blitzer textbook Section 7.6
+ 
+
+<hr id="Week5">
+
+## Week 5: Financial Mathematics
+
+**Test 2** will be at the beginning of first class, so do not be late. It will cover content since the last test. 
+<hr id="Week6">
+
+## Week 6: Probability Theory  
+
+This week we will finish Consumer Mathematics and start Probability.  This is an interesting topic with applications to situation analysis, risk tolerance, and gambling.
+
+
+
+<hr id="Week7">
+
+## Week 7: Statistics
+
+
+<hr id="Week8">
+
+## Week 8: Final Exam Time
+
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- Programmer: Robert Laurie  -->
+<html>
+<head>
+    <title>Temperature Convertor 1</title>
+    <script>
+        /* Programmer: Robert Laurie */
+        document.write("<h1>Welcome to my <br>Temperature Convertor program.</h1><p>by Robert Laurie</p>");
+        var sEntry = window.prompt("What is the degrees Celsius Temperature?", "0");
+        var fCels = parseFloat(sEntry); // Converts String to Number
+        var fFahr = 1.8 * fCels + 32;
+        document.write("<h2 style='color: #CC0000'>" + fCels + " &deg;C = " + fFahr + " &deg;F</h2>");
+    </script>
+</head>
+
+<body style="text-align: center; background-color: #FFFFCC">
+  <p>Reload for another conversion</p>
+</body>
+</html>

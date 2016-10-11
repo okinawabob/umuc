@@ -1,0 +1,226 @@
+/* External Cascade Style Sheet used for UMUC Courses */
+/* Author: Robert M. Laurie                           */
+/*----------------------------------------------------*/
+
+html {
+  font-size: 100%; /* Required for elastic layout design  */
+} 
+body { 
+  font-size: 1em; /* Required for elastic layout design  */ 
+  margin: 0;
+  padding: 0;
+  background: #FFFFDD url(wpLines1.gif) repeat;
+  background-attachment: scroll;
+  font-family:'Noto Sans', serif;
+}
+
+#nav {
+  top: 0;
+  width: 100%;
+  background-color: #4466BB;
+  border-bottom: 3px solid #224499;
+  border-top: 3px solid #6688DD;
+  text-align: center;
+  position:fixed;
+  z-index: 20;
+}
+
+
+#navBox {
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#navBox #navBtnUMUC {
+  float: left;
+}
+#navBtnUMUC a {
+  display: inline-block;
+  width: 153px;
+  height: 30px;
+  background: #CCCCCC url("btUMUCLog153x60.jpg") no-repeat;
+}
+div#navBtnUMUC a:hover { background-position: 0 -30px;}
+
+#header {
+  display: inline-block;
+  color:#FFFFFF;
+  text-shadow: 2px 2px #9999CC;
+  font-size: 26px;
+  line-height: 30px;
+  width: 500px;
+  font-weight: 600;
+  margin-top: 2px;
+  text-align: right;
+  vertical-align: top;
+}
+
+#navBox ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	clear: left;
+}
+
+#navBox ul li {
+    float: left;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#navBox ul li a:link, #navBox ul li a:visited {
+    display: inline-block;
+    width: 64px;
+    background-color: #5577BB;
+	border-radius: 8px;
+	border-top: 2px solid #6688CC;
+	border-right: 1px solid #4466BB;
+	border-bottom: 2px solid #3355AA;
+	border-left: 1px solid #6688CC;
+    font-weight: bold;
+    color: #FFFFFF;
+
+    text-align: center;
+    padding: 1px 3px 1px 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#navBox ul li a:hover, #navBox ul li a:active {
+    background-color: #6688EE;
+	border-radius: 8px;
+	border-top: 2px solid #7799FF;
+	border-right: 1px solid #5577DD;
+	border-bottom: 2px solid #5577DD;
+	border-left: 1px solid #7799FF;
+    font-weight: bold;
+	color: #FFFF00;
+	
+}
+
+
+#main {
+  width: 640px; 
+  z-index: 10;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+#footer {
+  width: 640px; 
+  font-size: 0.85em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  text-align: right;
+}
+#main a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+#main a:link {text-decoration:none; color:#3366CC; }
+#main a:visited {text-decoration:none; color:#996633;}
+#main a:hover {text-decoration:underline; color:#CC3333;}
+#main a:active {text-decoration:underline; color:#EE0000;}
+
+
+p img, li img {
+  float: right;
+  margin-left: 8px;	
+  margin-bottom: 8px;
+}
+
+figure {
+  text-align: center;
+  margin: 0;
+}
+
+hr { 
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+
+hr#WeekNow { 
+  margin-top: 0;
+  margin-bottom: 2px;
+}
+
+#main p {	
+  font-family: 'Noto Serif', serif;
+  font-size:  1em;
+  width: 100%;
+  margin: 0 0 0.75em 0;
+  color: #000000;
+}
+
+#main p.indent {
+  text-indent: 10em;
+}
+
+#main p.signature {
+  font-family: 'Great Vibes', 'Brush Script MT', 'Comic Sans MS', cursive; 
+  font-size: 3em; 
+  color: #000099;
+  font-style: italic;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Serif', sans-serif;
+  color: #000066;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left; 
+}
+
+h1 {
+  margin: 8px 0 16px 0;
+  font-size: 2.4em;
+  text-shadow: 2px 2px #CCCCCC;
+  text-align: center;
+}
+h2 {	 
+  margin:6px 0 12px 0;
+  font-size: 1.4em;
+  text-shadow: 1px 1px #CCCCCC;
+}
+
+h3 { 
+  margin: 4px 0 8px 0;
+  font-size: 1.2em;
+}
+
+h4 { 
+  margin: 3px 0 6px 0;
+  font-size: 1.1em;
+  font-style: italic;
+} 
+
+h5 { 
+  margin: 2px 0 4px 0;  
+  font-size: 1em;
+  font-style: italic;
+}
+
+h6 { 
+  margin: 1px 0 2px 0; 
+  font-size: 0.9em;
+}
+
+#main ol, #main ul {
+  margin-top: 0.4em;
+  font-family: 'Noto Serif', serif;
+  font-size: 1em;
+}
+
+
+#main strong{
+  color: #000066;
+  font-weight: 800;
+  font-size: 105%;
+}

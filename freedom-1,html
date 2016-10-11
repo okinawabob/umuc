@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<!-- My first web page by Robert Laurie -->
+<html>
+<head>
+    <meta charset="UTF-8" >
+    <title>Freedom 字湯</title>
+</head>
+
+<body>
+    <h1>Freedom</h1>
+    <hr>
+    <h4>Freedom is just another word for nothing left to loose.</h4>
+    <p>--Janis Joplin</p>
+    <hr>
+    <hd>Freedom 2</hd>
+</body>
+</html>
