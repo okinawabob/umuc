@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left; 
 }
 
-p {clear: both; display: block; text-align: left; }
+p {display: block; text-align: left; }
 h1 {
   font-size: 2.4em;
   text-shadow: 2px 2px #CCCCCC;
@@ -221,7 +221,7 @@ h6 {
 
 #main strong{
   color: #000066;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 105%;
 }
 
