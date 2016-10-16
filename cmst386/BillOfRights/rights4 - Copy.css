@@ -1,0 +1,146 @@
+/* rights.css External CSS File for rights.html page
+ * Author: Robert Laurie
+ */
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+body {
+	color: #330;
+	background: url(bgFireworksFlag.jpg);
+	background-color: #996;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 18px;
+	text-align: justify;
+	margin: 0;
+}
+
+div#main {
+	width: 800px;
+	margin: 0 auto 20px auto;
+	background-color: #963;
+	background: url(old-paper-veined-light.jpg);
+	padding: 20px 0 20px 0;
+	/* border: 2px dotted gray; */
+}
+
+nav {
+	position: fixed;
+	width: 60px;
+	margin: 0 0 0 20px;
+	border-radius: 30px;
+	border: 5px outset #993;
+	background: url(wpLines1.gif);
+	background-color: #CC9;
+	font-size: 18px;
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+}
+
+nav hr {
+	margin: 4px 0 4px 0;
+}
+nav a {
+	display: block;
+	margin: 4px 0 4px 0;
+	text-decoration: none;
+  font-weight: 700;
+}
+
+nav a:link {color:#36F;}
+nav a:visited {color:#963;}
+nav a:hover {
+	background-color: rgba(250, 250, 150, .50);
+	color:#C33;
+}
+nav a:active {
+	background-color: rgba(250, 250, 150, .75);
+	color:#E00;
+}
+
+a#btHomeRO  {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background: url("btHomeRed.gif") no-repeat;
+}	
+a#btHomeRO:hover { background-position: 0 -50px;}
+a#btHomeRO:active { background-position: 0 -100px; }
+
+a.btTop {
+	font: bold 32px/38px Verdana, Geneva, sans-serif;
+	background-color: rgba(128, 0, 0, .8);
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	border: 5px outset #999;
+}
+a.btTop:link {color: #EE6;}
+a.btTop:visited {color:#FEC;}
+a.btTop:hover { background-color: #D66; color: #FF3;}
+a.btTop:active { background-color: #F93; color: #FEB;}
+
+
+div#main header {
+	width: 600px;
+	margin: 0 0 0 120px;
+	padding: 0;
+}
+
+section {
+	width: 600px;
+	margin: 0 0 0 120px;
+}
+footer {
+	width: 600px;
+	font-size: small;
+	text-align: right;
+	vertical-align: bottom;
+	margin: 0 0 20px 120px;
+}
+
+footer a.btTop {
+	float: left;
+
+}
+
+abbr {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+h1, h2 {
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-weight: 900;
+}
+h1 { font-size: 36px;}
+h2 {	font-size: 30px;
+}
+
+#logo { float: right;}
+#btHome {
+	float: left;
+}
+ol {
+	list-style-type: none;
+	padding: 0;
+}
+ol li:before {
+	content: "Amendment " counter(section, Upper-Roman) ": ";
+	font-weight: bold;
+	color: blue;
+}
+ol li {
+	counter-increment: section;
+	padding: 0;
+	margin-top: 20px;
+}
+
+.signature {
+font-family: 'Great Vibes', cursive;
+	font-weight: 900;
+	font-size: 42px;
+	margin:0;
+}
