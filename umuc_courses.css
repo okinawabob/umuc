@@ -4,9 +4,9 @@
 
 html {
   font-size: 100%; /* Required for elastic layout design  */
-} 
-body { 
-  font-size: 1em; /* Required for elastic layout design  */ 
+}
+body {
+  font-size: 1em; /* Required for elastic layout design  */
   margin: 0;
   padding: 0;
   background: #FFFFDD url(wpLines1.gif) repeat;
@@ -48,7 +48,7 @@ div#navBtnUMUC a:hover { background-position: 0 -30px;}
   display: inline-block;
   color:#FFFFFF;
   text-shadow: 2px 2px #9999CC;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 30px;
   width: 500px;
   font-weight: 600;
@@ -97,12 +97,12 @@ div#navBtnUMUC a:hover { background-position: 0 -30px;}
 	border-left: 1px solid #7799FF;
     font-weight: bold;
 	color: #FFFF00;
-	
+
 }
 
 
 #main {
-  width: 640px; 
+  width: 640px;
   z-index: 10;
   top: 0;
   margin-left: auto;
@@ -111,7 +111,7 @@ div#navBtnUMUC a:hover { background-position: 0 -30px;}
 }
 
 #footer {
-  width: 640px; 
+  width: 640px;
   font-size: 0.85em;
   margin-left: auto;
   margin-right: auto;
@@ -131,7 +131,7 @@ div#navBtnUMUC a:hover { background-position: 0 -30px;}
 
 p img, li img {
   float: right;
-  margin-left: 8px;	
+  margin-left: 8px;
   margin-bottom: 8px;
 }
 
@@ -148,7 +148,7 @@ figure {
 }
 
 
-#main p {	
+#main p {
   font-family: 'Noto Serif', serif;
   font-size:  1em;
   width: 100%;
@@ -161,8 +161,8 @@ figure {
 }
 
 #main p.signature {
-  font-family: 'Great Vibes', 'Brush Script MT', 'Comic Sans MS', cursive; 
-  font-size: 3em; 
+  font-family: 'Great Vibes', 'Brush Script MT', 'Comic Sans MS', cursive;
+  font-size: 3em;
   color: #000099;
   font-style: italic;
   font-weight: 500;
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000066;
   font-weight: 700;
   font-style: normal;
-  text-align: left; 
+  text-align: left;
 }
 
 h1 {
@@ -181,31 +181,31 @@ h1 {
   text-shadow: 2px 2px #CCCCCC;
   text-align: center;
 }
-h2 {	 
+h2 {
   margin:6px 0 12px 0;
   font-size: 1.4em;
   text-shadow: 1px 1px #CCCCCC;
 }
 
-h3 { 
+h3 {
   margin: 4px 0 8px 0;
   font-size: 1.2em;
 }
 
-h4 { 
+h4 {
   margin: 3px 0 6px 0;
   font-size: 1.1em;
   font-style: italic;
-} 
+}
 
-h5 { 
-  margin: 2px 0 4px 0;  
+h5 {
+  margin: 2px 0 4px 0;
   font-size: 1em;
   font-style: italic;
 }
 
-h6 { 
-  margin: 1px 0 2px 0; 
+h6 {
+  margin: 1px 0 2px 0;
   font-size: 0.9em;
 }
 
