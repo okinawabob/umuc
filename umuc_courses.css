@@ -129,7 +129,7 @@ div#navBtnUMUC a:hover { background-position: 0 -30px;}
 #main a:active {text-decoration:underline; color:#EE0000;}
 
 
-p img, li img {
+p img, li img, h2 img {
   float: right;
   margin-left: 8px;
   margin-bottom: 8px;
