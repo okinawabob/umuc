@@ -409,7 +409,8 @@ ul.vid>li a::after {
 
 /* For popup images */
 div.imgPopup img{
-  margin-left: 6px;
+  margin-left: 16px;
+  margin-bottom: 16px;
   border: 3px outset #999;
   float: right;
   border-radius:8px;
