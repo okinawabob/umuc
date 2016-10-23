@@ -1,0 +1,128 @@
+/*
+ * normalize-css-fix
+ * Version 0.1
+ * https://github.com/jaydenseric/Fix
+ * License: none (public domain)
+ * Created to support my CMST386 class at UMUC Okinawa
+ * Derived from  https://github.com/jaydenseric/Fix
+ *
+ * This will support early versions of IE if you link to html5shiv.js
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <![endif]-->
+*/
+/*  Document Elements */
+
+html {
+	-ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+    margin: 0;
+		line-height: 1.15;
+		font-family: Verdana, Geneva, sans-serif;
+}
+
+iframe {
+	border: 0;
+}
+
+/* Block Elements */
+h1, h2, h3, h4, h5, h6 {
+		font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2em
+		margin-top: 0;
+		margin-bottom: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main, li {
+	display: block;
+}
+
+p, dl, blockquote, dd, ul, ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+dd {
+  margin-left: 0;
+}
+
+blockquote {
+	margin-left: 0
+	padding: 0;
+}
+
+ul, ol {
+  padding-left: 0;
+}
+
+
+/* Inline Elements */
+sup {
+  position: top;
+  top: 0.5em;
+  vertical-align: top;
+  font-size: 75%;
+  line-height: 0;
+}
+
+sub {
+  position: relative;
+  top: -0.5em;
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+}
+
+b, strong {
+  font-weight: bold;
+}
+figure {
+  margin: 0;
+}
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a, button {
+    color: inherit;
+    transition: .3s;
+}
+a {
+    text-decoration: none;
+		color: inherit;
+}
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    -webkit-font-smoothing: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+}
+button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  text-transform: inherit;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer;
+  overflow: visible;
+}
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
