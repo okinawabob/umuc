@@ -8,11 +8,10 @@ body {
   font-size: 1em; /* Required for elastic layout design  */
   margin: 0;
   padding: 0;
-  background: #FFFFDD url(wpLines1.gif) repeat;
+  background: #FFFFDD url(../wpLines1.gif) repeat;
   background-attachment: scroll;
   font-family:'Noto Sans', serif;
 }
-
 
 a {
   text-decoration: none;
@@ -112,7 +111,7 @@ figure {
   padding-top: 72px;
 }
 
-#nav {
+nav {
   top: 0;
   width: 100%;
   background-color: #4466BB;
@@ -138,7 +137,7 @@ div#navBtnUMUC a {
   display: inline-block;
   width: 153px;
   height: 30px;
-  background: #CCCCCC url("btUMUCLog153x60.jpg") no-repeat;
+  background: #CCCCCC url("../btUMUCLog153x60.jpg") no-repeat;
 }
 div#navBtnUMUC a:hover { background-position: 0 -30px;}
 
@@ -207,7 +206,7 @@ div#navBtnUMUC a:hover { background-position: 0 -30px;}
   margin-bottom: 10px;
 }
 
-#footer {
+footer {
   width: 640px;
   font-size: 0.85em;
   margin-left: auto;
