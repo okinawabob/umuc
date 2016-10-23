@@ -1,0 +1,420 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css');
+@import url('http://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+/* External Cascade Style Sheet used for UMUC Courses */
+/* Author: Robert M. Laurie                           */
+/*----------------------------------------------------*/
+html {
+  font-size: 100%; /* Required for elastic layout design  */
+}
+body {
+  font-size: 1em; /* Required for elastic layout design  */
+  margin: 0;
+  padding: 0;
+  background: #FFFFDD url(wpLines1.gif) repeat;
+  background-attachment: scroll;
+  font-family:'Noto Sans', serif;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+a:link {text-decoration:none; color:#3366CC; }
+a:visited {text-decoration:none; color:#996633;}
+a:hover {text-decoration:underline; color:#CC3333;}
+a:active {text-decoration:underline; color:#EE0000;}
+
+p {
+  font-family: 'Noto Serif', serif;
+  font-size:  1em;
+  width: 100%;
+  margin:0.6em  0 0 0;
+  color: #000000;
+}
+
+p.indent {
+  text-indent: 10em;
+}
+
+p.signature {
+  font-family: 'Great Vibes', 'Brush Script MT', 'Comic Sans MS', cursive;
+  font-size: 3em;
+  color: #000099;
+  font-style: italic;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Serif', sans-serif;
+  color: #000066;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+}
+
+h1 {
+  margin:0.9em 0 0.45em 0;
+  font-size: 2.4em;
+  text-shadow: 2px 2px #CCCCCC;
+  text-align: center;
+}
+h2 {
+  margin:0.8em 0 0.2em 0;
+  font-size: 1.4em;
+  text-shadow: 1px 1px #CCCCCC;
+}
+
+h3 {
+  margin: 0.9em 0 0 0;
+  font-size: 1.2em;
+}
+
+h4 {
+  margin: 8px 0 4px 0;
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+h5 {
+  margin: 6px 0 3px 0;
+  font-size: 1em;
+  font-style: italic;
+}
+
+h6 {
+  margin: 4px 0 2px 0;
+  font-size: 0.9em;
+}
+
+ol, ul {
+  margin-top: 0.1em;
+  margin-bottom: 0.2em;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+p img, li img, h2 img {
+  float: right;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+
+figure {
+  text-align: center;
+  margin: 0;
+}
+
+.week {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border-top: 3px dotted #6688DD;
+  padding-top: 72px;
+}
+
+#nav {
+  top: 0;
+  width: 100%;
+  background-color: #4466BB;
+  border-bottom: 3px solid #224499;
+  border-top: 3px solid #6688DD;
+  text-align: center;
+  position:fixed;
+  z-index: 20;
+}
+
+
+#navBox {
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#navBox #navBtnUMUC {
+  float: left;
+}
+div#navBtnUMUC a {
+  display: inline-block;
+  width: 153px;
+  height: 30px;
+  background: #CCCCCC url("btUMUCLog153x60.jpg") no-repeat;
+}
+div#navBtnUMUC a:hover { background-position: 0 -30px;}
+
+#header {
+  display: inline-block;
+  color:#FFFFFF;
+  text-shadow: 2px 2px #9999CC;
+  font-size: 24px;
+  line-height: 30px;
+  width: 500px;
+  font-weight: 600;
+  margin-top: 2px;
+  text-align: center;
+  vertical-align: top;
+}
+
+#navBox ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	clear: left;
+}
+
+#navBox ul li {
+    float: left;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#navBox ul li a:link, #navBox ul li a:visited {
+    display: inline-block;
+    width: 64px;
+    background-color: #5577BB;
+	border-radius: 8px;
+	border-top: 2px solid #6688CC;
+	border-right: 1px solid #4466BB;
+	border-bottom: 2px solid #3355AA;
+	border-left: 1px solid #6688CC;
+    font-weight: bold;
+    color: #FFFFFF;
+
+    text-align: center;
+    padding: 1px 3px 1px 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#navBox ul li a:hover, #navBox ul li a:active {
+    background-color: #6688EE;
+	border-radius: 8px;
+	border-top: 2px solid #7799FF;
+	border-right: 1px solid #5577DD;
+	border-bottom: 2px solid #5577DD;
+	border-left: 1px solid #7799FF;
+    font-weight: bold;
+	color: #FFFF00;
+
+}
+
+#main {
+  width: 640px;
+  z-index: 10;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+#footer {
+  width: 640px;
+  font-size: 0.85em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  text-align: right;
+}
+
+
+#main strong{
+  color: #000066;
+  font-weight: 800;
+  font-size: 105%;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #4a4a4d;
+  font: 14px/1.2 Helvetica, Arial, sans-serif;
+	margin-bottom: 30px;
+}
+th,
+td {
+  padding: 4px 4px;
+  vertical-align: middle;
+}
+thead {
+  background: #395870;
+  background: linear-gradient(#49708f, #293f50);
+  color: #fff;
+  font-size: 16px;
+  font-variant: small-caps;
+}
+th:first-child {
+  border-top-left-radius: 5px;
+  text-align: left;
+}
+th:last-child {
+  border-top-right-radius: 5px;
+}
+tbody tr:nth-child(even) {
+  background: #f0f0f2;
+}
+td {
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+td:first-child {
+  border-left: 1px solid #cecfd5;
+}
+.book-title {
+  color: #395870;
+  display: block;
+}
+.text-offset {
+  color: #7c7c80;
+  font-size: 12px;
+}
+.item-stock,
+.item-qty {
+  text-align: center;
+}
+.item-price {
+  text-align: right;
+}
+.item-multiple {
+  display: block;
+}
+tfoot {
+  text-align: right;
+}
+tfoot tr:last-child {
+  background: #f0f0f2;
+  color: #395870;
+  font-weight: bold;
+}
+tfoot tr:last-child td:first-child {
+  border-bottom-left-radius: 5px;
+}
+tfoot tr:last-child td:last-child {
+  border-bottom-right-radius: 5px;
+}
+
+td a { font-size: 12px; }
+
+ul li {
+    margin-bottom: 6px
+}
+
+/* For read List */
+ul.read {
+  list-style-type: none;
+  padding-left: 20px;
+}
+ul.read>li{
+  position: relative;
+  padding-left: 28px;
+}
+ul.read>li::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: FontAwesome;
+  font-size: 20px;
+  content: "\f02d";
+  color: #a36;
+}
+
+/* For hyperlink Document List */
+ul.link {
+  list-style-type: none;
+  padding-left: 20px;
+}
+ul.link>li{
+  position: relative;
+  padding-left: 28px;
+}
+ul.link>li::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: FontAwesome;
+  font-size: 18px;
+  content: "\f14c";
+  color: #a36;
+}
+
+/* For todo Document List */
+ul.todo {
+  list-style-type: none;
+  padding-left: 20px;
+}
+ul.todo>li{
+  position: relative;
+  padding-left: 28px;
+}
+ul.todo>li::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: FontAwesome;
+  font-size: 18px;
+  content: "\f044";
+  color: #a36;
+}
+
+/* For PDF Document List */
+ul.pdf {
+  list-style-type: none;
+  padding-left: 20px;
+}
+ul.pdf>li{
+  position: relative;
+  padding-left: 28px;
+}
+ul.pdf>li::before, li.pdf {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: FontAwesome;
+  font-size: 24px;
+  content: "\f1c1";
+  color: #a36;
+}
+
+
+/* For Video List */
+ul.vid {
+  list-style-type: none;
+  padding-left: 20px;
+}
+ul.vid>li{
+  position: relative;
+  padding-left: 28px;
+}
+ul.vid>li::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: FontAwesome;
+  font-size: 22px;
+  content: "\f16a";
+  color: #a36;
+}
+ul.vid>li a::after {
+  font-family: FontAwesome;
+  font-size: 24px;
+  content: "\f017";
+  color: #666;
+  margin-left: 10px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+/* For popup images */
+div.imgPopup img{
+  margin-left: 16px;
+  margin-bottom: 16px;
+  border: 3px outset #999;
+  float: right;
+  border-radius:8px;
+}
+div.imgPopup:hover img{
+  border: 3px inset #666;
+}
