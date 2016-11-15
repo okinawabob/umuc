@@ -1,0 +1,67 @@
+
+Media Querries 
+https://mva.microsoft.com/en-US/training-courses/adding-style-with-css-8474?l=Cn0m5XXz_4304984382
+
+https://mva.microsoft.com/en-US/training-courses/adding-style-with-css-8474?l=Cn0m5XXz_4304984382
+
+https://mva.microsoft.com/en-US/training-courses/adding-style-with-css-8474?l=Cn0m5XXz_4304984382
+
+
+Make things lower case in URL folder structure.
+Nav buttons should be obvious.
+
+
+Xzabier Arebalo  https://xzabiera.github.io/CMST386/exercise1/index.html
+
+Great job Xzabier. Keep up the good work.  Try expanding your gallery a bit as things progress in the course.
+
+Jair Daza
+https://hell-hammer.github.io/CMST386/Exercise1/index.html
+Good job Jair. I like Bali photos.
+
+Pahlo 
+https://pahlo.github.io/CMST386/exercise1/
+
+Pahlo,
+You can do better then this submission. No Gallery and none of required text on home page. for 
+
+Stephen Harrington
+https://madgame3.github.io/cmst386/
+You got things up and running just fine. Try going for more of the Wow effect on CSS. Gallery should have pictures in correct orientation and try to make bigger like 500px for the dimension as specified. Spiff it up in Exercise 2. 
+
+Nikah Holmes
+https://nikkyh.github.io/cmst386/exercise1/index.html
+A good start. Exercise 1 should be your home page and should have a link to Gallery as specified. Then just copy and paste content into exercise 2 folder and keep going. Gallery should be  a described link. 
+Nice buttons. 
+
+Jonathan Ketchum
+http://veedubrunner.github.io/cmst386/exercise1/index.html
+
+Dana Lucio
+http://dlucio.pancakeapps.com/cmst386/exercise1/index.html
+Nice start, but kind of sad you have to go back to pancakeapps. Try to get github working for assigment 2. I think you got lost in your folder structures...
+
+Your images need to be resized using a graphic editor so that the max dimension is 500px. They load too slow as is and are too big. Don't contribute to the WWW. Coding a different width does not make the image smaller.
+
+Dominic Rose
+http://dominic.pancakeapps.com/Index3.html
+
+
+
+Nice start, but kind of sad you have to go back to pancakeapps. Try to get github working for assigment 2. I think you got lost in your folder structures... Please keep trying. Your button should say gallery if that is where it goes. 
+Exercise 1 should be your home page and should have a link to Gallery as specified. Then just copy and paste content into exercise 2 folder and keep going. Gallery should be  a described link. 
+
+Your images need to be resized using a graphic editor so that the max dimension is 500px.
+
+Joshua Stevens
+https://texasbound88.github.io/cmst386/exercise1/index.html
+
+Nice start. Colors don’t look so good for your link bar. Select high contrast colors. Gallery photos were small. Should be 500px for maximum dimension.
+Try to improve gallery photos for Exercise 3.
+
+Randy Wilson,
+file:///C:/Users/Randie/Documents/GitHub/cmst386/Excercise1/gallery.html
+Your posted link does not work so I can’t grade this. Use pancake apps if you can’t get github working. But keep trying.  I need to take off late for a resubmission at this point.
+
+
+
