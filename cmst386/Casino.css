@@ -1,0 +1,88 @@
+body {
+   padding: 0;
+   margin: 0;
+}
+
+h1 {
+   margin-top: 0.8em;
+   margin-bottom: 0.4em;
+   text-align: center;
+   font-size: 1.8em;
+   color: #009900;
+   font-family: "Comic Sans MS", Verdana, Arial, sans-serif;
+}
+
+#frmCasino {
+   background-color: #CCFFCC;
+   width: 37em;
+   height: 30.5em;
+  	margin-left: auto;
+   margin-right: auto; 
+   border: 0.4em outset #009900;
+}
+
+#fsDataEntry {
+   width: 14em;
+	height: 27.3em;
+  margin: 1em 0 1em 1em;
+	padding: 0 1em 1em 1em;
+   float: left;
+}
+
+fieldset#fsResults {
+	width: 14em;
+	height: 24em;
+  margin: 1em 1em 1em 0;
+	padding: 0 1em 1em 1em;
+  float: right;
+}
+
+#fsResults p {
+	text-align: right;
+}
+
+#fsResults p#txaLabel {
+	text-align: left;
+	margin-left: 3em;
+}
+
+#fsResults p input {
+ 	 background-color: #EEFFEE;
+	 text-align: right;
+}
+
+legend {
+   font: 700 1.1em "Comic Sans MS",Verdana, Arial, sans-serif;
+   color: #669966;
+}
+
+fieldset p {
+   font: 600 0.9em/1em Arial, sans-serif;
+   color: #336633;
+   margin-top: 0.5em;
+	 margin-bottom: 0;
+}
+
+#txaReceiptsDisplay {
+ 	 background-color: #EEFFEE;
+	 text-align: right;
+}
+
+#btnCalculate {
+	float: left;
+	margin-left: 3em;
+	height: 3em;
+	width: 12em;
+	font-weight: 700;
+	color: #00CC00;
+}
+
+#btnReset {
+	float: right;
+	margin-right: 1em;
+	height: 3em;
+	width: 6em;
+	font-weight: 700;
+	color: #990000;
+}
+

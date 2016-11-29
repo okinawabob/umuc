@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <script>
+        var nRollCounter = new Array(0,0,0,0,0,0,0,0,0,0,0,0,0);
+        for (var nRolls = 0; nRolls < 100000000; nRolls++) {
+            var nDice = RollDie() + RollDie();
+            nRollCounter[nDice]++;
+        }
+
+        for(var nI = 2; nI < nRollCounter.length; nI++)
+            document.write("Dice Roll " + nI + " = " + nRollCounter[nI] + "<br>");
+
+        function RollDie() {
+            var Die = Math.floor(Math.random() * 6) + 1;
+            return Die;
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+</html>
