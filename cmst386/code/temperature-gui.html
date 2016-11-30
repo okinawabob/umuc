@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GUI - Converter</title>
+  <script>
+    "use strict";  // Pragma to enable strict mode for JS interpreter
+    function C2F(){
+      var oCels = document.getElementById("txtCels");
+      var oFahr = document.getElementById("txtFahr");
+      oFahr.value = parseFloat(oCels.value) * 1.8 + 32;
+      if(isNaN(oCels.value))
+      {
+        alert("You must enter a number!");
+        oFahr.value = "";
+        oCels.value = "";
+      }
+      else
+        HotCold();
+    }
+
+    function F2C(){
+      var oCels = document.getElementById("txtCels");
+      var oFahr = document.getElementById("txtFahr");
+      oCels.value = (parseFloat(oFahr.value) - 32)/1.8;
+      if(isNaN(oFahr.value))
+      {
+        alert("You must enter a number!");
+        oFahr.value = "";
+        oCels.value = "";
+      }
+      else
+        HotCold();
+    }
+
+    function HotCold()
+    {
+      var oFahr = document.getElementById("txtFahr");
+      var oForm = document.getElementById("frmMain");
+      if(oFahr.value <= 40)
+        oForm.style.backgroundColor = "#CCCCFF";
+      else if(oFahr.value >= 80)
+        oForm.style.backgroundColor = "#FFCCCC";
+      else
+        oForm.style.backgroundColor = "#FFFFFF";
+    }
+
+  </script>
+  <style>
+    form {
+      padding: 20px;
+    }
+    p {
+      margin: 10px 10px;
+    }
+    label {
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+<body>
+  <h1>Welcome to the Temperture Converter Program</h1
+  <p>by Robert Laurie</p>
+  <form id="frmMain">
+    <p>
+    <input type="text" id="txtCels" onkeyup="C2F()"> <label for="txtCels"> &deg;Celcius</label>
+    </p>
+    <p>
+    <input type="text" id="txtFahr" onkeyup="F2C()"> <label for="txtFahr"> &deg;Fahrenheit</label>
+    </p>
+    <p>
+    <input type="reset" value="Clear">
+  </p>
+  </form>
+</body>
+</html>
