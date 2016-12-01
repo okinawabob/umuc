@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GUI - Converter</title>
+  <script>
+    "use strict";  // Pragma to enable strict mode for JS interpreter
+    function C2F()
+    {
+      var oCels = document.getElementById("txtCels");
+      var oFahr = document.getElementById("txtFahr");
+      oFahr.value = parseFloat(oCels.value) * 1.8 + 32;
+      if(isNaN(oCels.value))
+      {
+        alert("You must enter a number!");
+        FormClear();
+        oCels.focus();
+        oCels.style.backgroundColor = "#FF9";
+      }
+      else
+        HotCold();
+    }
+
+    function F2C()
+    {
+      var oCels = document.getElementById("txtCels");
+      var oFahr = document.getElementById("txtFahr");
+      oCels.value = (parseFloat(oFahr.value) - 32)/1.8;
+      if(isNaN(oFahr.value))
+      {
+        alert("You must enter a number!");
+        FormClear();
+        oFahr.focus();
+        oFahr.style.backgroundColor = "#FF9";
+      }
+      else
+        HotCold();
+    }
+
+    function FormClear()
+    {
+      var oForm = document.getElementById("frmMain");
+      var oCels = document.getElementById("txtCels");
+      var oFahr = document.getElementById("txtFahr");
+      var oImage = document.getElementById("imgTemp");
+      oForm.style.backgroundColor = "#CFC";
+      oFahr.value = "";
+      oCels.value = "";
+      oImage.style.backgroundImage = "url(Warm_Day-512.png)";
+    }
+
+    function HotCold()
+    {
+      var oFahr = document.getElementById("txtFahr");
+      var oCels = document.getElementById("txtCels");
+      var oForm = document.getElementById("frmMain");
+      var oImage = document.getElementById("imgTemp");
+      var chkAudio = document.getElementById("chkAudio");
+      oFahr.style.backgroundColor = "#FFF";
+      oCels.style.backgroundColor = "#FFF";
+      if(oFahr.value <= 40)
+      {
+        oForm.style.backgroundColor = "#CCF";
+        oImage.style.backgroundImage = "url(Cold_Day-512.png)";
+        if(chkAudio.checked) audCold.play();
+      }
+      else if(oFahr.value >= 80)
+      {
+        oForm.style.backgroundColor = "#FCC";
+        oImage.style.backgroundImage = "url(Hot_Day-512.png)";
+        if(chkAudio.checked) audHot.play();
+      }
+      else
+      {
+        oForm.style.backgroundColor = "#CFC";
+        oImage.style.backgroundImage = "url(Warm_Day-512.png)";
+        if(chkAudio.checked) audWarm.play();
+      }
+    }
+
+  </script>
+  <style>
+    form {
+      padding: 20px;
+      height: 270px;
+      background-color: #CFC;
+    }
+    p {
+      margin: 10px 10px;
+    }
+    .units {
+      font-weight: bold;
+    }
+    #imgTemp {
+      width: 256px;
+      height: 256px;
+      float: right;
+      background-image: url(Warm_Day-512.png);
+      background-repeat: none;
+      background-size: contain;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Temperture Converter Program</h1>
+
+  <p>by Robert Laurie</p>
+  <form id="frmMain">
+    <div id="imgTemp"></div>
+    <p>
+    <input type="text" id="txtCels" onchange="C2F()"> <label for="txtCels" class="units"> &deg;Celcius</label>
+    </p>
+    <p>
+    <input type="text" id="txtFahr" onchange="F2C()"> <label for="txtFahr" class="units"> &deg;Fahrenheit</label>
+    </p>
+    <p>
+    <input type="reset" value="Clear" onclick="FormClear()">
+    <label for="chkAudio"> Enable Audio </label>
+    <input type="checkbox" id="chkAudio">
+  </p>
+  </form>
+  <audio id="audCold"> <source src="cold.mp3" type="audio/mpeg"> </audio>
+  <audio id="audWarm"><source src="warm.mp3" type="audio/mpeg"> </audio>
+  <audio id="audHot"> <source src="hot.mp3" type="audio/mpeg"> </audio>
+</body>
+</html>
