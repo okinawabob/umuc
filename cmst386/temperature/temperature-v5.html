@@ -9,11 +9,12 @@
       var oCels = document.getElementById("txtCels");
       var oFahr = document.getElementById("txtFahr");
       oFahr.value = parseFloat(oCels.value) * 1.8 + 32;
-      if(isNaN(oCels.value))
+      if(oCels.checkValidity() == false)
       {
         alert("You must enter a number!");
         oFahr.value = "";
         oCels.value = "";
+        FormClear();
       }
       else
         HotCold();
@@ -28,9 +29,17 @@
         alert("You must enter a number!");
         oFahr.value = "";
         oCels.value = "";
+        FormClear();
       }
       else
         HotCold();
+    }
+
+    function FormClear()
+    {
+      var oForm = document.getElementById("frmMain");
+      oForm.style.backgroundColor = "#CFC";
+      imgTemp.style.backgroundImage = "url(Warm_Day-512.png)";
     }
 
     function HotCold()
@@ -38,17 +47,28 @@
       var oFahr = document.getElementById("txtFahr");
       var oForm = document.getElementById("frmMain");
       if(oFahr.value <= 40)
-        oForm.style.backgroundColor = "#CCCCFF";
+      {
+        oForm.style.backgroundColor = "#CCF";
+        imgTemp.style.backgroundImage = "url(Cold_Day-512.png)";
+      }
       else if(oFahr.value >= 80)
-        oForm.style.backgroundColor = "#FFCCCC";
+      {
+        oForm.style.backgroundColor = "#FCC";
+        imgTemp.style.backgroundImage = "url(Hot_Day-512.png)";
+      }
       else
-        oForm.style.backgroundColor = "#FFFFFF";
+      {
+        oForm.style.backgroundColor = "#CFC";
+        imgTemp.style.backgroundImage = "url(Warm_Day-512.png)";
+      }
     }
 
   </script>
   <style>
     form {
       padding: 20px;
+      height: 270px;
+      background-color: #CFC;
     }
     p {
       margin: 10px 10px;
@@ -56,21 +76,30 @@
     label {
       font-weight: bold;
     }
+    #imgTemp {
+      width: 256px;
+      height: 256px;
+      float: right;
+      background-image: url(Warm_Day-512.png);
+      background-repeat: none;
+      background-size: contain;
+    }
   </style>
-
 </head>
 <body>
-  <h1>Welcome to the Temperture Converter Program</h1
+  <h1>Welcome to the Temperture Converter Program</h1>
+
   <p>by Robert Laurie</p>
   <form id="frmMain">
+    <div id="imgTemp"></div>
     <p>
-    <input type="text" id="txtCels" onkeyup="C2F()"> <label for="txtCels"> &deg;Celcius</label>
+    <input type="text" id="txtCels" onchange="C2F()" type="number" min="-40" max="100"> <label for="txtCels"> &deg;Celcius</label>
     </p>
     <p>
-    <input type="text" id="txtFahr" onkeyup="F2C()"> <label for="txtFahr"> &deg;Fahrenheit</label>
+    <input type="text" id="txtFahr" onchange="F2C()"  type="number" min="-40" max="212"> <label for="txtFahr"> &deg;Fahrenheit</label>
     </p>
     <p>
-    <input type="reset" value="Clear">
+    <input type="reset" value="Clear" onclick="FormClear()">
   </p>
   </form>
 </body>

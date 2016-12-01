@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GUI - Converter</title>
+  <script>
+    "use strict";  // Pragma to enable strict mode for JS interpreter
+    function C2F(){
+      var oCels = document.getElementById("txtCels");
+      var oFahr = document.getElementById("txtFahr");
+      oFahr.value = parseFloat(oCels.value) * 1.8 + 32;
+      if(isNaN(oCels.value))
+      {
+        alert("You must enter a number!");
+        oFahr.value = "";
+        oCels.value = "";
+        FormClear();
+        oCels.focus();
+        oCels.style.backgroundColor = "#FFC"
+      }
+      else
+        HotCold();
+    }
+
+    function F2C(){
+      var oCels = document.getElementById("txtCels");
+      var oFahr = document.getElementById("txtFahr");
+      oCels.value = (parseFloat(oFahr.value) - 32)/1.8;
+      if(isNaN(oFahr.value))
+      {
+        alert("You must enter a number!");
+        oFahr.value = "";
+        oCels.value = "";
+        FormClear();
+      }
+      else
+        HotCold();
+    }
+
+    function FormClear()
+    {
+      var oForm = document.getElementById("frmMain");
+      oForm.style.backgroundColor = "#CFC";
+      imgTemp.style.backgroundImage = "url(Warm_Day-512.png)";
+    }
+
+    function HotCold()
+    {
+      var oFahr = document.getElementById("txtFahr");
+      var oForm = document.getElementById("frmMain");
+      if(oFahr.value <= 40)
+      {
+        oForm.style.backgroundColor = "#CCF";
+        imgTemp.style.backgroundImage = "url(Cold_Day-512.png)";
+      }
+      else if(oFahr.value >= 80)
+      {
+        oForm.style.backgroundColor = "#FCC";
+        imgTemp.style.backgroundImage = "url(Hot_Day-512.png)";
+      }
+      else
+      {
+        oForm.style.backgroundColor = "#CFC";
+        imgTemp.style.backgroundImage = "url(Warm_Day-512.png)";
+      }
+    }
+
+  </script>
+  <style>
+    form {
+      padding: 20px;
+      height: 270px;
+      background-color: #CFC;
+    }
+    p {
+      margin: 10px 10px;
+    }
+    label {
+      font-weight: bold;
+    }
+    #imgTemp {
+      width: 256px;
+      height: 256px;
+      float: right;
+      background-image: url(Warm_Day-512.png);
+      background-repeat: none;
+      background-size: contain;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to the Temperture Converter Program</h1>
+
+  <p>by Robert Laurie</p>
+  <form id="frmMain">
+    <div id="imgTemp"></div>
+    <p>
+    <input type="text" id="txtCels" onchange="C2F()"> <label for="txtCels"> &deg;Celcius</label>
+    </p>
+    <p>
+    <input type="text" id="txtFahr" onchange="F2C()"> <label for="txtFahr"> &deg;Fahrenheit</label>
+    </p>
+    <p>
+    <input type="reset" value="Clear" onclick="FormClear()">
+  </p>
+  </form>
+</body>
+</html>
