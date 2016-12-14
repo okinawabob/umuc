@@ -1,0 +1,1 @@
+[27-Nov-2008 06:04:44] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'bob'@'localhost' (using password: YES) in /home/islan35/public_html/yamagata/dataEntry.php on line 137

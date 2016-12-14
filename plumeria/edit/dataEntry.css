@@ -1,0 +1,118 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Meiryo", "Arial Unicode MS", "MS Gothic", "Sazanami Gothic", "IPA Mona Font", "Kochi Gothic", "Hiragino Kaku Gothic", "Osaka" , "Arial", sans-serif;  
+  /* MS Vista only = Meiryo  
+     Linux fonts = "Sazanami Gothic", "IPA Mona Font", "Kochi Gothic" 
+     Mac = "Hiragino Kaku Gothic", "Osaka"    
+  */
+  color: #000000;
+  background-color : #ffffff;
+}
+div#dvStatus { 
+  padding: 2px 0 2px 8px;
+	width: 800px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: normal;
+  color: #006600;
+}
+
+div#dvTables { 
+  position: absolute;
+	top: 20px;
+	left: 0;
+	width: 120px;
+	min-height: 600px;
+  padding: 1px;
+  color: #000066;
+  background-color: #E0E0FF; 
+  font-family: Arial, sans-serif;
+  line-height: 20px;
+  font-weight: bold;
+  border-top: 4px solid #999999;
+}
+div#dvElementID { 
+  position: absolute;
+	top: 20px;
+	left: 121px;
+	min-height: 600px;
+	width: 120px;
+  padding: 1px;
+  color: #006600;
+  background-color: #DDFFDD; 
+  font-family: Arial, sans-serif;
+  line-height: 20px;
+  font-weight: bold;
+  border-top: 4px solid #999999;
+}
+div#dvLanguages{
+  position: absolute;
+	top: 20px;
+ 	left: 242px;
+	min-width: 750px;
+  min-height: 600px;
+  color: #666600;
+  background-color: #FFFFCC; 
+	padding: 0 0 0 20px;
+  border-top: 4px solid #999999;
+}
+
+textarea { 
+  font-family: "Meiryo", "Arial Unicode MS", "MS Gothic", "Sazanami Gothic", "IPA Mona Font", "Kochi Gothic", "Hiragino Kaku Gothic", "Osaka" , "Arial", sans-serif; 
+	border: 2px inset #CCCC66;
+	max-width: 730px;
+  background-color: #DDDDDD;
+}
+p.textarea {  
+  margin: 0 10px 0 10px;
+  padding: 0;
+}
+p.display {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 6px;
+  text-align: right;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px dotted #999999;
+}
+a { text-decoration: none;}
+a:link {color: #0000FF;}
+a:visited {color: #990099;}
+a:hover {color: #FF0000;}
+a:active {color: #FF0000;} 
+h3 {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  text-align: left;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 18px;
+	line-height: 20px;
+}
+h4 {
+  margin-top: 8px;
+  margin-bottom: 2px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+	line-height: 16px;
+}
+h4.lang { 
+  text-align: left;
+  margin: 10px 0 2px 0;
+  font-size: 16px;
+	line-height: 20px;
+  }
+h4.caption { 
+  border-bottom: 1px solid #999999;
+  padding-bottom: 6px;
+}
+.error { color: #CC0000; }
+
+

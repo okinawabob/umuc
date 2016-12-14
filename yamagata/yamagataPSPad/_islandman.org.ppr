@@ -1,0 +1,105 @@
+[Config]
+Relative path=1
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+FileFormat=0
+[Project tree]
+yamagataPSPad
+	+yamagataPSPad
+		-facilities
+			facilities\azumaen.gif
+			facilities\azumaen-furo.jpg
+			facilities\azumaen-nakaniwa.jpg
+			facilities\azumaen-yeya.jpg
+			facilities\enkaijo.gif
+			facilities\Furo-big.jpg
+			facilities\index.php
+			facilities\kyakushitsu-1.gif
+			facilities\nakaniwa.jpg
+			facilities\omotegenkan.jpg
+		-food
+			food\Apples2.jpg
+			food\cherry.jpg
+			food\grape.jpg
+			food\index.php
+			food\koi-umani.jpg
+			food\LaFrance.jpg
+			food\peach.jpg
+			food\radium-eggs.jpg
+			food\setmenu.jpg
+			food\soba-2.jpg
+			food\steak.jpg
+			food\sukiyaki.jpg
+		-inc
+			inc\azumaso.sql
+			inc\azumaso_facil.sql
+			inc\azumaso_food.sql
+			inc\azumaso_home.sql
+			inc\azumaso_lang.sql
+			inc\azumaso_location.sql
+			inc\azumaso_seasons.sql
+			inc\chkProcessor.js
+			inc\dbDataEntry.inc
+			inc\dbReadLang.inc
+			inc\dbReadTables.inc
+			inc\islan35_azumaso.sql
+		-location
+			location\Access.gif
+			location\Access_en.gif
+			location\bullet-red.gif
+			location\index.php
+			location\MapJapan.gif
+			location\OnsenMap.gif
+			location\OnsenMap.jpg
+			location\OnsenMap_ja.gif
+		-seasons
+			seasons\ajisai.jpg
+			seasons\cherryFirefly.jpg
+			seasons\hotaru-festival.jpg
+			seasons\index.php
+			seasons\kadomatsu.jpg
+			seasons\mapletrees.jpg
+			seasons\mapletrees2.jpg
+			seasons\matsuri.jpg
+			seasons\nanakamado.jpg
+			seasons\ohoribata.jpg
+			seasons\onogawa.jpg
+			seasons\sakura-1.jpg
+			seasons\sakura-2.jpg
+			seasons\sakuraBoat.jpg
+			seasons\sakuraschool.jpg
+			seasons\yonezawa-bonchi.jpg
+			seasons\yukimi-buro.jpg
+		azumaen.gif
+		azumaso-kanji.jpg
+		BlurMetalLe0.gif
+		BlurMetalLl0.gif
+		btLinks.gif
+		dataEntry.css
+		dataEntry.php
+		dataEntry20js.php
+		error_log
+		extrachar
+		index.php
+		index1.php
+		indexold.html
+		koi.jpg
+		map.html
+		map_ja.html
+		niwa.jpg
+		topic.css
+		wpMenuSideRed.gif
+		wpMenuTop.gif
+[Open project files]
+0=New1.txt
+[Selected Project Files]
+Main=
+Selected=New1.txt
+[New1.txt]
+TopLine=1
+Caret=1,1

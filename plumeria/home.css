@@ -1,0 +1,110 @@
+
+body {
+  color: #000000;
+  background-color: #FFFFCC;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url(wpLines1.gif);
+}
+
+#divContent {
+  width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#navBar {
+   text-align: center;
+	border-top: 2px solid #CCCCAA;
+  border-left: 2px solid #CCCCAA;				 
+  border-right: 2px solid #AAAA88;	
+	background-color: #FFFFCC;
+	height: 60px;
+	overflow: hidden;
+
+}
+
+#ancBar {
+  text-align: center;
+	padding: 8px 8px 8px 8px;
+	border-top: 2px solid #CCCCAA;
+  border-left: 2px solid #CCCCAA;				 
+  border-right: 2px solid #AAAA88;	
+	border-bottom: 2px solid #AAAA88; 
+	background-color: #FFFFEE;
+}
+
+
+
+.NavButton a{
+   /* display: block; */
+	 float: left;
+   height: 52px;
+   width: 180px;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 14px;
+   line-height: 18px;
+   font-weight: 700;
+   margin-top: 4px;
+   margin-left:24px;
+	 margin-right:0px;
+	 padding-top: 6px;
+	 overflow: hidden;
+	 color: #009900;
+   background: #FFFFCC url("btnWhiteL.gif") no-repeat;
+   text-align: center;
+   text-decoration: none;
+}
+.NavButton a:hover {
+    color: #00BB00; 
+		text-decoration: none;}
+.NavButton a:active {
+    color: #CC3300;	
+		text-decoration: none;}  
+  
+
+h1 { text-align: center; font-family: verdana, arial, helvetica, sans-serif; 
+   font-size: xx-large; margin-top: 1em; margin-bottom: 0.5em; color: #006600; }
+	 
+h2 { text-align: center; font-family: verdana, arial, helvetica, sans-serif; 
+   font-size: x-large; color: #006600;  margin-top: 0.5em; margin-bottom: 0.5em;  }
+	 
+p { font-size: medium;  color: #002200; font-family: arial, helvetica, sans-serif; 
+   margin-top: 0.50em; margin-bottom: 0.50em; }
+	 
+img { border-style: none; }
+
+#mainPhoto {float: left; margin-right: 1.13em; 
+  border-top: 0.25em solid #AACCAA;
+  border-left: 0.25em solid #AACCAA;				 
+  border-bottom: 0.25em solid #88AA88;
+  border-right: 0.25em solid #88AA88;				 
+}
+
+a { text-decoration: none; color: #008800; font-weight: 700;}
+.navButton a:link {
+  color: #008800;
+  text-decoration: none;
+	font-weight: 700;
+}
+
+a:visited {
+  color: #008800;
+  text-decoration: none;
+}
+
+a:focus {
+  color: #00BB00;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #00BB00;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #CC3300;
+}

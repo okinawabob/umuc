@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule index-lang-(.*)\.htm$ index.php?lang=$1					
+				

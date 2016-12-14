@@ -1,0 +1,67 @@
+html {
+  font-size: 100%; /* Required for elastic layout design  */
+}
+
+body {
+  font-size: 1em; /* Required for elastic layout design   */
+  color: #000000;
+  background-color: #FFFFCC;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url(wpLines1.gif);
+}
+
+#dvContent {
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+h1 { text-align: center; font-family: verdana, arial, helvetica, sans-serif; 
+   font-size: 2.25em; margin-top: 1.13em; margin-bottom: 1.13em; color: #006600; }
+	 
+h2 { text-align: center; font-family: verdana, arial, helvetica, sans-serif; 
+   font-size: 1.75em; color: #006600;  margin-top: 0.88em; margin-bottom: 0.88em;  }
+	 
+h3 { font-family: verdana, arial, helvetica, sans-serif; font-size: 1.5em;  
+   margin-top: 0.50em; margin-bottom: 0.50em; color: #005500; }
+	 
+p { font-size: 1.1em;  color: #002200; font-family: arial, helvetica, sans-serif; 
+   margin-top: 0.50em; margin-bottom: 0.50em; font-weight: lighter; }
+	 
+img { border-style: none; }
+
+#mainPhoto {float: left; margin-right: 1.13em; 
+  border-top: 0.25em solid #AACCAA;
+  border-left: 0.25em solid #AACCAA;				 
+  border-bottom: 0.25em solid #88AA88;
+  border-right: 0.25em solid #88AA88;				 
+}
+
+a { text-decoration: none; color: #008800; font-weight: bold;}
+.navButton a:link {
+  color: #008800;
+  text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited {
+  color: #008800;
+  text-decoration: none;
+}
+
+a:focus {
+  color: #00BB00;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #00BB00;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #33FF33;
+}

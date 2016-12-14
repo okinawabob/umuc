@@ -1,0 +1,75 @@
+body {
+   background-color : #ffffff;
+   color : #000000;
+   margin: 0;
+   padding: 0;
+}
+
+/* Following is a hack for IE 6 and earlier browsers. 
+   I use the hack to take care of the issue that 
+   IE does not support the CSS property position 
+   with value fixed.
+   * html is a selector that only IE <= version 6 uses.
+*/
+* html body {
+  background: #FFFFFF url(wpMenuSideRed.gif) repeat-y;
+} 
+   
+#NavMenu{
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 130px; 
+  text-align: center;
+  height: 100%;
+	background: #FFFF3F url(wpMenuSideRed.gif) repeat-y;
+	z-index: 30;
+}
+
+.NavButton a{
+   display: block;
+   height: 32px;
+   width: 100px;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+	 font-size: 14px;
+   line-height: 32px;
+   font-weight: 700;
+   margin-top: 30px;
+   margin-left:10px;
+	 margin-right:10px;
+	 color: #CCCC00;
+   background: #990000 url("btLinks.gif") no-repeat;
+   text-align: center;
+   text-decoration: none;
+}
+.NavButton a:hover {background-position: 0 -32px; color: #FFFF00;}
+.NavButton a:active {background-position: 0 -32px; color: #FFCC33;}  
+  
+#Content{
+ 	position: absolute;
+  top: 0;
+  left:130px;
+	width: 750px;
+	z-index: 20;
+}
+
+p{
+	font-family: Georgia, serif;
+	font-size:12pt; 
+	margin-top: 4pt; 
+	margin-bottom: 2pt;
+	margin-left: 40px;
+	line-height: 16pt;
+	text-indent: 20pt;
+	width: 500px;
+	text-align: justify;
+}
+h1{
+	 color:#990000;
+	 font-style:italic;
+	margin-left: 20px;
+}
+h3{color:#0000FF;
+	margin-left: 20px;
+}
+a{ text-decoration: none; color: #00FFFF ;}

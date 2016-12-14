@@ -1,0 +1,123 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 100.1%; /* Required for elastic layout design   */
+  font-family: "Meiryo", "Arial Unicode MS", "MS Gothic", "Sazanami Gothic", "IPA Mona Font", "Kochi Gothic", "Hiragino Kaku Gothic", "Osaka" , "Arial", sans-serif;  
+  /* MS Vista only = Meiryo  
+     Linux fonts = "Sazanami Gothic", "IPA Mona Font", "Kochi Gothic" 
+     Mac = "Hiragino Kaku Gothic", "Osaka"    
+  */
+  text-align: center;
+  color: #000000;
+	background-repeat: repeat-x;
+  background-color : #ffffff;
+}
+#dvStatus { 
+  top: 4px; 
+  left: 10px;
+  width: 100%; 
+  height:30px; 
+  text-align: left;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+  color: #006600;
+}
+
+#dvTables { 
+  position: absolute; 
+  top: 25px; 
+  width: 120px; 
+  left:0; 
+  height: 100%;
+  color: #000066;
+  background-color: #E0E0FF; 
+  border-top: 4px solid #999999;
+  padding-right: 1px;
+}
+#dvElementID { 
+  position: absolute; 
+  top: 25px; 
+  width: 120px; 
+  left:120px; 
+  height: 100%;
+  color: #006600;
+  background-color: #DDFFDD; 
+  border-top: 4px solid #999999;
+  padding-right: 1px;
+}
+#dvLanguages{
+  position: absolute; 
+  top: 25px; 
+  width: 100%; 
+  left: 240px; 
+  height: 100%;
+  color: #666600;
+  background-color: #FFFFCC; 
+  border-top: 4px solid #999999;
+  padding-right: 10px;
+}
+
+form {
+  margin-left: 30px;
+}
+
+textarea { 
+font-family: monospace;
+width: 600px; 
+border: 2px inset #CCCC66;
+padding: 0;
+margin: 0;
+}
+p.textarea {  margin-top: 4px;
+  margin-bottom: 0px;
+  padding: 0;
+
+}
+p.display {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 6px;
+  text-align: right;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border-bottom: 1px dotted #999999;
+}
+a { text-decoration: none;}
+a:link {color: #0000FF;}
+a:visited {color: #990099;}
+a:hover {color: #FF0000;}
+a:active {color: #FF0000;} 
+h3 {
+  margin-top: 6px;
+  margin-bottom: 3px;
+  margin-left:30px;
+  text-align: left;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 18px;
+}
+h4 {
+  margin-top: 8px;
+  margin-bottom: 2px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+h4.lang { text-align: left;
+  margin-left: 0;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-size: 16px;
+  }
+h4.caption { 
+  border-bottom: 1px solid #999999;
+  padding-bottom: 6px;
+
+}
+.error { color: #CC0000; }
+
+

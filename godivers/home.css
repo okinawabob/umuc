@@ -1,0 +1,469 @@
+body {
+  text-align: center;
+  color: #000000;
+  background-color: #0B2177;
+  padding: 0;
+  margin: 0;
+  background-image: url(bgImage.jpg);
+	background-repeat: repeat-x;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 28px;	
+  text-align: center;
+ 	margin: 8px 0 8px 0;
+  color: #000066;
+}
+
+h2 {
+  font-size: 21px;
+  line-height: 24px;	
+  text-transform: capitalize;
+  text-align: center;
+  margin: 10px 0 6px 0;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 20px;	
+  text-transform: capitalize;
+  text-align: center;
+  margin: 8px 0 4px 0;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 28px;
+  height: 28px;
+  text-align: left;
+  text-transform: capitalize;
+  margin: 16px 0 8px 0;
+  padding-left: 8px;
+  background-color: #2C469A;
+  color: #FFFFFF;
+  background-image: url(h4Grad.jpg);
+	background-repeat: repeat-x;
+}
+
+p {
+  font-size: 16px;
+	line-height: 19px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 4px;
+	margin-bottom: 8px;
+}
+.contactInfo {
+  font-size: 18px;
+  text-align: center;
+  margin: 10px 0 10px 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+hr {
+  margin: 10px 0 8px 0;
+}
+
+img {
+  border: none;
+}
+
+a {text-decoration: none;}
+a:link { color: #3333CC;}
+a:visited { color: #3333CC;}
+a:focus { color: #0000FF;}
+a:hover { color: #CC0033; text-decoration: underline;}
+a:active { color: #CC0000;}
+ 
+div#dvTop a { /* Used to establish top of page jump in all browsers */
+  height: 0; 
+  margin: 0; 
+  padding: 0;
+  top: 0; 
+  line-height: 0;
+}
+div#wrapper {  /* Creates a floating fixed width wrapper */
+  position: relative; 
+  font-size: 16px; /* All font sizes will be based on this */
+  margin-top: 10px;
+  margin-right: auto; 
+  margin-left: auto; 
+  width: 710px; 
+  padding-top: 8px; 
+  background-color: #96D1F3;
+  border-top: 4px solid #9999DD;
+  border-left: 4px solid #9999DD;
+  border-bottom: 4px solid #6666AA;
+  border-right: 4px solid #6666AA;
+  z-index: 5;
+  text-align: right;
+}
+
+div#logo {
+  position: absolute; 
+  top: -10px;
+  left: -12px;
+  margin: 0;
+  z-index: 20;
+}
+ 
+div#askus {
+  position: absolute; 
+  top: 8px;
+  left: 195px;
+  width: 180px;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  color: #000099;
+  z-index: 15; 
+}
+div#askusNS {
+  position: absolute; 
+  top: 40px;
+  left: 195px;
+  z-index: 17; 
+} 
+
+div#location { /* Not absolute and produces veritcal flow right side */
+  margin-right: 8px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #000099;
+}
+
+img#mainPhoto {
+  margin-bottom: 0px;
+  margin-top: 8px;
+  border-top: 4px solid #AAAACC;
+  border-bottom: 4px solid #777799;
+  z-index: 10;
+}
+
+div#selectLang {
+  margin-top: 0px;
+  margin-bottom: 1px;
+  margin-left: 160px;
+  text-transform: capitalize;
+  text-align: right;
+  padding: 5px 0 5px 0;
+	width: 530px;
+ 	font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000066;
+	vertical-align: middle;
+  z-index: 60;
+}
+div#selectLang a {
+  text-decoration: none;
+ 	font-weight: bold;
+  font-size: 12px;
+  border-top: 2px solid #CC6666;
+  border-right: 2px solid #663333;
+  border-bottom: 2px solid #663333;
+  border-left: 2px solid #CC6666;
+  background-color: #993333;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  vertical-align: middle;
+  margin-right: 15px;
+  padding: 1px 3px 1px 3px;
+  color: #CCCC00;
+  text-decoration: none;
+}
+div#selectLang a:hover  {
+  text-decoration: none;
+  color: #FFFF00;
+  background-color: #AA4444;
+}
+div#selectLang a:active {
+  color: #FF3333;
+   text-decoration: none;
+ 
+}
+
+div#mainContent{ 
+  margin-top: 0px;
+  margin-left: 160px;
+  padding: 20px;
+  text-align: right;
+  width: 510px;
+  background-color: #FFFFFF;
+  color: #000000;
+  z-index: 25;
+}
+
+div#divNews {
+  margin: -10px 0 20px 0; 	
+  height: 120px;
+	width: 487px; 
+  padding: 10px;
+  border-left: 2pt solid #666699;
+  border-bottom: 2pt solid #9999CC; 
+  border-right: 1pt solid #9999CC; 
+  overflow: auto; 
+}
+
+div#dvPhotos{
+  margin: 20px 0 20px 0;
+  height: 212px; 
+  width: 490px;
+  padding: 0 10px 0 0;
+  text-align: center;
+  background-color: #F1E9D6;
+  border: 6px double #993333;
+}
+
+.contentPhotos {
+  float:right; 
+  margin: 0 0 8px 8px; 
+  border-top: 4px solid #9999CC;
+  border-left: 4px solid #9999CC;
+  border-bottom: 4px solid #666699;
+  border-right: 4px solid #666699;
+}
+
+p#copyright{
+  text-align: center;
+  margin: 10px 0 20px 0;
+  font-size: 14px;
+}
+
+div#bannerReport a {
+	display: block;
+  margin-top: 10px; 
+  margin-left: auto;
+  margin-right: auto;	
+  height: 116px;
+	width: 496px;
+  text-transform: capitalize;
+	font-weight: bold;
+  padding: 10px 10px 0 0;
+  font-size: 14px;
+	color:#003399; 
+	background: #0884CC url("reportBanner.jpg") no-repeat;
+ 	text-align:right;
+	text-decoration: none; 
+  overflow: hidden;
+}
+div#navMenu .navButtonBlogGodi a:hover {border: 2px inset #FFFF80; color:#FFFF00;}
+div#navMenu .navButtonBlogGodi a:active { color:#FF6633; border-color: #FF6633; }
+
+div#mainContent .navButtonOrange a {
+	color: #EEEE33; 
+	background: #FFFFFF url("btnOrange.gif") no-repeat;
+	display: block;
+  margin: 10px 10px 0 362px;
+  height: 26px;
+	width: 146px;
+  text-transform: capitalize;
+	font-weight: bold;
+  font-size: 11px;
+  line-height: 26px;
+	text-align: center;
+	text-decoration: none; 
+}
+div#mainContent .navButtonOrange a:hover { 
+  background-position: 0 -26px; 
+  color:#FFFF99; 	
+  text-decoration: none; 
+}
+div#mainContent .navButtonOrange a:active { 
+  background-position: 0 -26px; 
+  color:#FFCCCC;
+}
+
+div#dvPhotos .navButtonOrangeAlbum a {
+	color: #EEEE33; 
+	background: #F1E9D6 url("btnOrange.gif") no-repeat;
+	display: block;
+  margin: 5px 10px 0 320px;
+  height: 26px;
+	width: 146px;
+  text-transform: capitalize;
+	font-weight: bold;
+  font-size: 13px;
+  line-height: 26px;
+	text-align: center;
+	text-decoration: none; 
+}
+div#dvPhotos .navButtonOrangeAlbum a:hover { 
+  background-position: 0 -26px; 
+  color:#FFFF99; 	
+  text-decoration: none; 
+}
+div#dvPhotos .navButtonOrangeAlbum a:active { 
+  background-position: 0 -26px; 
+  color:#FFCCCC;
+}
+
+div#navMenu{ /* Navigation menu wrapper */
+  position: absolute;
+  top: 200px;
+  padding: 0;
+  width: 160px;
+  background-color: #EEC080;
+  background-image: url(bgNavMenu.jpg);
+  left: 0;
+  bottom: 0;
+  z-index: 30;
+}
+
+div#navMenu .navButton1 a {
+	display:block;
+	height: 34px;
+	width: 160px;
+	margin: 0;
+  text-transform: capitalize;
+	font-weight: bold;
+  font-size: 14px;
+  line-height: 32px;
+	color:#EEEE33; 
+	background: #ED2522 url("button1.jpg") no-repeat;
+	text-align: center;
+	text-decoration: none; 
+  overflow: hidden;
+}
+div#navMenu .navButton1 a:hover { background-position: 0 -34px; color:#FFFF99;}
+div#navMenu .navButton1 a:active { background-position: 0 -34px; color:#FFCCCC;}
+
+div#navMenu .navButton1a a {
+	display:block;
+	height: 32px;
+	width: 144px;
+  padding-left: 16px;
+  text-transform: capitalize;
+	font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+	color:#000066; 
+	background: #EEBB86 url("button1a.jpg") no-repeat;
+	text-align: left;
+	vertical-align: middle;
+	text-decoration: none; 
+  overflow: hidden;
+}
+div#navMenu .navButton1a a:hover { background-position: 0 -32px; color:#0000CC;}
+div#navMenu .navButton1a a:active { background-position: 0 -32px; color:#0000FF;}
+
+div#navMenu .navButton1b a {
+	display:block;
+	height: 50px;
+	width: 127px;
+  padding-left: 30px;
+  padding-right: 3px;
+  text-transform: capitalize;
+	font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+	color:#000066; 
+	background: #EEBB86 url("button1b.jpg") no-repeat;
+	text-align: left;
+	text-decoration: none; 
+  overflow: hidden;
+}
+div#navMenu .navButton1b a:hover { background-position: 0 -50px; color:#0000CC;}
+div#navMenu .navButton1b a:active { background-position: 0 -50px; color:#0000FF;}
+
+div#navMenu .navButtonBlue a {
+	display: block;
+  margin-top: 10px; 
+  margin-left: auto;
+  margin-right: auto;	
+  height: 20px;
+	width: 140px;
+  text-transform: capitalize;
+	font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+	color:#CCCC66; 
+	background: #0884CC url("btnBlue.gif") no-repeat;
+	text-align:center;
+	text-decoration: none; 
+  overflow: hidden;
+}
+div#navMenu .navButtonBlue a:hover { background-position: 0 -20px; color:#FFFF00;}
+div#navMenu .navButtonBlue a:active { background-position: 0 -20px; color:#FF6633;}
+
+div#navMenu .navButtonBlogGodi a {
+	display: block;
+  margin-top: 10px; 
+  margin-left: auto;
+  margin-right: auto;	
+  height: 60px;
+	width: 140px;
+  text-transform: capitalize;
+	font-weight: bold;
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 20px;
+	color:#CCCC66; 
+	background: #0884CC url("godiBlog.jpg") no-repeat;
+  border: 2px outset #80D4FF;
+	text-align:center;
+	text-decoration: none; 
+  overflow: hidden;
+}
+div#navMenu .navButtonBlogGodi a:hover {border: 2px inset #FFFF80; color:#FFFF00;}
+div#navMenu .navButtonBlogGodi a:active { color:#FF6633; border-color: #FF6633; }
+
+div#navMenu .navButtonBlogTanya a {
+	display: block;
+  margin-top: 10px; 
+  margin-left: auto;
+  margin-right: auto;	
+  height: 66px;
+	width: 140px;
+  padding-top: 4px;
+  text-transform: capitalize;
+	font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+	color:#CCCC66; 
+	background: #ED1F21 url("tanyaBlog.jpg") no-repeat;
+  border: 2px outset #E5E5E3;
+	text-align: left;
+	text-decoration: none; 
+  overflow: hidden;
+}
+div#navMenu .navButtonBlogTanya a:hover {  border: 2px inset #FFFF80; color:#FFFF00;}
+div#navMenu .navButtonBlogTanya a:active { color:#FFCCCC; border-color: #FFCCCC; }
+
+div#navMenu .weather a {
+	display: block;
+  margin-top: 10px; 
+  margin-left: auto;
+  margin-right: auto;	
+  color: #333399;
+  height: 46px;
+	width: 140px;
+	background: #FFFFFF url("http://banners.wunderground.com/weathersticker/miniWeather06_both/language/www/US/MP/Saipan.gif") no-repeat;
+  border: 2px outset #E5E5E3;
+  text-align: left;
+  vertical-align: bottom;
+	text-decoration: none; 
+  overflow: hidden;
+  background-position: -5px -4px;
+}
+div#navMenu .weather a:hover { border: 2px inset #FFFF80; color:#0000FF; }
+div#navMenu .weather a:active { border-color: #FF6633; color:#FF3333;  }
+
+div#navMenu .weather span#weatherText{
+	display: block;
+  margin-top: 18px;
+	background: #BDCEE6 url("bgWeather.gif") no-repeat;
+  height: 28px;
+	width: 88px;
+  text-transform: capitalize;
+	font-weight: bold;
+  font-size: 12px;
+  line-height: 100%;
+	font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+}
+
