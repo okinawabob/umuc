@@ -18,6 +18,12 @@ body {
   font-family:'Noto Sans', serif;
 }
 
+code {
+  font-family: Consolas, 'Lucida Console', monospace;
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #000066;
+}
 a {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
