@@ -1,0 +1,5 @@
+
+
+Total column should be blue, and all columns should be wide enough for text labels. Otherwise looks good
+
+Total column should be blue, and chart should have caption. Otherwise looks goodOtherwise looks good

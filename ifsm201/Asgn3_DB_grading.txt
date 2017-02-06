@@ -1,0 +1,18 @@
+
+
+Total column should be blue, and all columns should be wide enough for text labels. Otherwise looks good
+
+Total column should be blue, and chart should have caption. Otherwise looks goodOtherwise looks good
+
+Database runs and works.
+Employee form should cycle through all employees and shows one at a tiem. Seems to be showing three?
+Query does not work, but your posted table as PDF shows it did work at one time.
+Your name is missing in posted employee table, however I see it in database.
+
+Database runs but report should show up in Access Objects. 
+Form also missing.
+Query does not work.
+Your report attchment does seem to be correct so part of database originally.
+
+Database runs and works.
+Query does not work, but your posted table as PDF shows it did work at one time.
