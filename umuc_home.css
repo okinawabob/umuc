@@ -79,28 +79,27 @@ div#navBtnUMUC a:hover { background-position: 0 -30px;}
 }
 
 #navBox ul li {
-    float: left;
+  float: left;
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
+  margin-right: 28px;
 }
 
 #navBox ul li a:link, #navBox ul li a:visited {
-    display: inline-block;
-    width: 90px;
-    background-color: #5577BB;
+  display: inline-block;
+  width: 90px;
+  background-color: #5577BB;
 	border-radius: 15px;
 	border-top: 2px solid #6688CC;
 	border-right: 1px solid #4466BB;
 	border-bottom: 2px solid #3355AA;
 	border-left: 1px solid #6688CC;
-    font-weight: bold;
-    color: #FFFFFF;
-
-    text-align: center;
-    padding: 1px 3px 1px 3px;
-    margin-right: 20px;
-    text-decoration: none;
-    text-transform: uppercase;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1px 3px 1px 3px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 #navBox ul li a:hover, #navBox ul li a:active {
