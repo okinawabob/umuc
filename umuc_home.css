@@ -34,8 +34,21 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-#navBox #navBtnUMUC {
+#navBox #navBtnHome {
   float: left;
+}
+div#navBtnHome a {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  background: #4466BB url("btHomeBlue.gif") no-repeat;
+}
+div#navBtnHome a:hover { background-position: 0 -33px;}
+
+
+#navBox #navBtnUMUC {
+  float: right;
+  margin-left: 8px;
 }
 div#navBtnUMUC a {
   display: inline-block;
@@ -49,12 +62,12 @@ div#navBtnUMUC a:hover { background-position: 0 -30px;}
   display: inline-block;
   color:#FFFFFF;
   text-shadow: 2px 2px #9999CC;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 30px;
-  width: 500px;
+  width: 600px;
   font-weight: 600;
   margin-top: 2px;
-  text-align: center;
+  text-align: right;
   vertical-align: top;
 }
 
@@ -91,13 +104,13 @@ div#navBtnUMUC a:hover { background-position: 0 -30px;}
 }
 
 #navBox ul li a:hover, #navBox ul li a:active {
-    background-color: #6688EE;
+  background-color: #6688EE;
 	border-radius: 15px;
 	border-top: 2px solid #7799FF;
 	border-right: 1px solid #5577DD;
 	border-bottom: 2px solid #5577DD;
 	border-left: 1px solid #7799FF;
-    font-weight: bold;
+  font-weight: bold;
 	color: #FFFF00;
 
 }
