@@ -12,20 +12,19 @@
         <br>and also a supporting webpage at <br><a href="https://blog.webjeda.com/jekyll-contact-form/">https://blog.webjeda.com/jekyll-contact-form/</a> </p>
 
 
-    <form action="">
+    <form method="POST" action="https://formspree.io/robert.laurie@faculty.umuc.edu">
         <h2>Order your delicious virtual Pizza here:</h2>
         <h3>Your contact information:</h3>
-        <p> 
-            Name: <input type="text" name="Name" id="name"><br>
-            Telephone: <input type="tel" name="Telephone" id="telephone"><br>
-            Email: <input type="email" name="Email" id="email"><br>
-            Pickup Time: <input type="time" name="Time" id="time">
-        </p>
+        <p>Name: <input type="text" name="Name" id="name"></p>
+        <p>Telephone: <input type="tel" name="Telephone" id="telephone"></p> 
+        <p>Email: <input type="email" name="Email" id="email"></p>
+        <p>Pickup Time: <input type="time" name="Time" id="time"></p>  
+        
         <h3>Pizza Selection:</h3>
         <p>
             <input type="radio" name="size" id="Large-16"> Large 16 inch <br>
-            <input type="radio" name="size" id="Medium-12"> Medium 12 inch <br>
-            <input type="radio" name="size" id="Small-8"> Small 8 inch 
+            <input type="radio" name="size" id="Medium-12"> Medium 12 inch  <br>
+            <input type="radio" name="size" id="Small-8"> Small 8 inch <br>
         </p>
         <p>
             <input type="checkbox" name="Peperoni" id="peperoni"> Peperoni <br>
@@ -35,6 +34,11 @@
             <input type="checkbox" name="GP" id="gp"> Green Pepper <br>
             <input type="checkbox" name="XS" id="xs"> Extra Sauce <br>
         </p>
+        <p>
+            <input type="hidden" name="_next" value="http//islandman.org/umuc/pizza/thanks.html" />
+            <input type="hidden" name="_subject" value="Your Pizza Order" />
+        </p>
+        <p><input type="submit" value="Submit order"> &nbsp; <input type="reset" value="Clear form"></p>
     </form>
 </body>
 </html>
