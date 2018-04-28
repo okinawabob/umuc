@@ -22,9 +22,9 @@
         
         <h3>Pizza Selection:</h3>
         <p>
-            <input type="radio" name="Large-16" id="size"> Large 16 inch <br>
-            <input type="radio" name="Medium-12" id="size"> Medium 12 inch  <br>
-            <input type="radio" name="Small-8" id="size"> Small 8 inch <br>
+            <input type="radio" value="Large-16" name="size"> Large 16 inch <br>
+            <input type="radio" value="Medium-12" name="size"> Medium 12 inch  <br>
+            <input type="radio" value="Small-8" name="size"> Small 8 inch <br>
         </p>
         <p>
             <input type="checkbox" name="Peperoni" id="peperoni"> Peperoni <br>
@@ -42,7 +42,7 @@
         <p><input type="submit" value="Submit order"> &nbsp; <input type="reset" value="Clear form"></p>
     </form>
     <script>
-        var orderform = document.getElementById('formsend'); 
+        var orderform = document.getElementById('formsend');
         orderform.setAttribute('action', 'https://formspree.io' + '/robert.laurie' + '@' + 'faculty.umuc.' + 'edu');
     </script>
 </body>
