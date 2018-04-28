@@ -3,10 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Pizza Order form example</title>
-    <script>
-        var orderform = document.getElementById('formsend');
-        orderform.setAttribute('action', 'https://formspree.io' + '/robert.laurie' + '@' + 'faculty.umuc.' + 'edu');
-    </script>
 </head>
 <body>
     <h1>Example form for ordering a pizza</h1>
@@ -44,5 +40,9 @@
         </p>
         <p><input type="submit" value="Submit order"> &nbsp; <input type="reset" value="Clear form"></p>
     </form>
+    <script>
+        var orderform = document.getElementById('formsend');
+        orderform.setAttribute('action', 'https://formspree.io' + '/robert.laurie' + '@' + 'faculty.umuc.' + 'edu');
+    </script>
 </body>
 </html>
