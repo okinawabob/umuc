@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Pizza Order form example</title>
+    <script>
+        var orderform = document.getElementById('formsend');
+        orderform.setAttribute('action', '//formspree.io' + 'robert.laurie' + '@' + 'faculty.umuc.' + 'edu');
+    </script>
 </head>
 <body>
     <h1>Example form for ordering a pizza</h1>
@@ -12,7 +16,7 @@
         <br>and also a supporting webpage at <br><a href="https://blog.webjeda.com/jekyll-contact-form/">https://blog.webjeda.com/jekyll-contact-form/</a> </p>
 
 
-    <form method="POST" action="https://formspree.io/robert.laurie@faculty.umuc.edu">
+    <form method="POST" id="formsend">
         <h2>Order your delicious virtual Pizza here:</h2>
         <h3>Your contact information:</h3>
         <p>Name: <input type="text" name="Name" id="name"></p>
