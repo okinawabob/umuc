@@ -1,6 +1,7 @@
 body {
     padding: 0;
-    margin: 0;
+    margin: auto;
+    width: 800px;
  }
  
  h1, h2 {
@@ -17,11 +18,8 @@ h2 {
 }
 
 p {
-    margin: auto;
     font: 15px/16px sans-serif;
-    width: 800px;
-    margin: 4px;
-
+    margin-bottom: 8px;
 }
 
  
