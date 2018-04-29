@@ -52,7 +52,7 @@ fieldset #txaLabel {
 
 fieldset p input {
        background-color: #EEFFEE;
-      text-align: right;
+      text-align: left;
  }
  
  legend {
@@ -66,6 +66,7 @@ fieldset p input {
     color: #336633;
     text-align: left;
  }
+
  
  
  #btnSubmit {
