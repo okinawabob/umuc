@@ -11,6 +11,7 @@ body {
     font-size: 28px;
     color: #006600;
     font-family: "Comic Sans MS", Verdana, Arial, sans-serif;
+    text-shadow: 2px 2px 4px yellow;
  }
 
 h2 {
@@ -26,32 +27,27 @@ p {
  form {
     background-color: #CCFFCC;
     width: 500px;
-    height: 520px;
-     margin-left: auto;
+    height: 540px;
+    margin-left: auto;
     margin-right: auto; 
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 10px;
     border: 8px outset #009900;
     border-radius: 16px;
+    box-shadow: 10px 10px #AAAAAA;
  }
  
 
  }
  
  fieldset {
-    width: 580px;
-    height: 580px;
-    margin: 20px;
-    padding: 10px;
    float: right;
    border: 6px outset #009900;
-   border-radius: 12px;
  }
  
 fieldset #txaLabel {
      text-align: left;
-     margin-left: 30px;
  }
 
 fieldset p input {
@@ -61,34 +57,30 @@ fieldset p input {
  
  legend {
     font: 700 18px "Comic Sans MS",Verdana, Arial, sans-serif;
-    color: #669966;
-    margin-top: 10px;
+    color: #336633;
+    text-shadow: 2px 2px 4px yellow;
  }
  
  fieldset p {
     font: 600 14px/16px Arial, sans-serif;
     color: #336633;
-    margin: 10px;
-      text-align: left;
-      width: 440px;
+    text-align: left;
  }
  
  
  #btnSubmit {
      float: left;
-     margin-left: 10px;
      height: 30px;
-     width: 100px;
+     width: 120px;
      border-radius: 5px;
      font-weight: 700;
-     color: #00CC00;
+     color: #009900;
      text-align: center;
  }
  
  #btnReset {
      float: right;
      text-align: center;
-     margin-left: 10px;
      height: 30px;
      width: 100px;
      border-radius: 5px;
