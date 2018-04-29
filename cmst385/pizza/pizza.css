@@ -1,0 +1,99 @@
+body {
+    padding: 0;
+    margin: 0;
+ }
+ 
+ h1, h2 {
+    margin-top: 12px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 28px;
+    color: #006600;
+    font-family: "Comic Sans MS", Verdana, Arial, sans-serif;
+ }
+
+h2 {
+    font-size:24px;
+}
+
+p {
+    margin: auto;
+    font: 15px/16px sans-serif;
+    width: 800px;
+    margin: 4px;
+
+}
+
+ 
+ form {
+    background-color: #CCFFCC;
+    width: 500px;
+    height: 500px;
+     margin-left: auto;
+    margin-right: auto; 
+    margin-top: 50px;
+    padding: 10px;
+    border: 8px outset #009900;
+    border-radius: 16px;
+ }
+ 
+
+ }
+ 
+ fieldset {
+    width: 580px;
+    height: 580px;
+    margin: 20px;
+    padding: 10px;
+   float: right;
+   border: 6px outset #009900;
+   border-radius: 12px;
+ }
+ 
+fieldset #txaLabel {
+     text-align: left;
+     margin-left: 30px;
+ }
+
+fieldset p input {
+       background-color: #EEFFEE;
+      text-align: right;
+ }
+ 
+ legend {
+    font: 700 18px "Comic Sans MS",Verdana, Arial, sans-serif;
+    color: #669966;
+    margin-top: 10px;
+ }
+ 
+ fieldset p {
+    font: 600 14px/16px Arial, sans-serif;
+    color: #336633;
+    margin: 10px;
+      text-align: left;
+      width: 440px;
+ }
+ 
+ 
+ #btnSubmit {
+     float: left;
+     margin-left: 10px;
+     height: 30px;
+     width: 100px;
+     border-radius: 5px;
+     font-weight: 700;
+     color: #00CC00;
+     text-align: center;
+ }
+ 
+ #btnReset {
+     float: right;
+     text-align: center;
+     margin-left: 10px;
+     height: 30px;
+     width: 100px;
+     border-radius: 5px;
+     font-weight: 700;
+     color: #990000;
+ }
+ 
